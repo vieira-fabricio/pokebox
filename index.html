@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokebox</title>
+
+    <!--NORMALIZE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--NOSSOS CSSs-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/pokebox.css">
+
+    <!--ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+  <section class="content">
+
+    <header>
+      <h1>Pokebox</h1>
+    </header>
+        
+    <ol id="pokemonList" class="pokemons">
+        
+        <!--Aqui será carreegada a lista de pokemons-->
+            
+    </ol>
+
+    <div class="pagination">
+            
+        <button id="carregarMais" type="button">
+                Carregar Mais
+        </button>
+        
+    </div>
+
+  </section>
+
+  <div id="modal-container" class="container" onclick="hideModal()">
+
+    <div id="pokemonDetailsCard" class="modal">
+        <!-- Aqui aparecerá as habilidade dos Pokemons -->
+    </div>
+
+  </div>
+  
+    <!--NOSSOS SCRIPTS-->
+    <!--<script src="./assets/js/testeApi.js"></script> -->
+    <script src="./assets/js/poke-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

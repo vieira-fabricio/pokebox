@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: gray;
+}
+
+.content{
+   width: 100vw;
+   height: 100vh;
+   padding: 1rem;
+}
+
+.content header{
+    color: whitesmoke;
+}
+
+@media  screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
